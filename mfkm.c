@@ -1,15 +1,16 @@
-#include <linux/module.h>
-#include <linux/kernel.h>
-#include <linux/proc_fs.h>
-#include <linux/list.h>
-#include <asm/uaccess.h>
-#include <linux/udp.h>
-#include <linux/tcp.h>
-#include <linux/skbuff.h>
-#include <linux/ip.h>
-#include <linux/netfilter.h>
-#include <linux/netfilter_ipv4.h>
- 
+#include "/home/gabbydesk/goldfish/include/linux/module.h"
+#include "/home/gabbydesk/goldfish/include/linux/kernel.h"
+#include "/home/gabbydesk/goldfish/include/linux/proc_fs.h"
+#include "/home/gabbydesk/goldfish/include/linux/list.h"
+#include "/home/gabbydesk/goldfish/include/linux/uaccess.h"
+#include "/home/gabbydesk/goldfish/include/linux/udp.h"
+#include "/home/gabbydesk/goldfish/include/linux/tcp.h"
+#include "/home/gabbydesk/goldfish/include/linux/skbuff.h"
+#include "/home/gabbydesk/goldfish/include/linux/ip.h"
+#include "/home/gabbydesk/goldfish/include/linux/netfilter.h"
+#include "/home/gabbydesk/goldfish/include/linux/netfilter_ipv4.h"
+#include "/home/gabbydesk/goldfish/include/linux/vmalloc.h" 
+
 #define PROCF_MAX_SIZE 1024
  
 #define PROCF_NAME "minifirewall"
